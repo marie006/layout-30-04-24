@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    
+}
+
+header, section, footer
+{
+    border: 1px solid black;
+    margin: 1 rem;
+    text-align: center;
+    background-color: rgb(97, 32, 97);
+    margin: 1rem;
+    color: white;
+   
+
+}
+
+header
+{
+    min-height: 100px;
+
+}
+
+article
+{
+    display: flex;
+
+}
+.texto1, .texto2
+{
+    width: 100%;
+}
+
+section
+{
+    min-height: 300px;
+   
+}
+
+
+footer
+
+{
+    min-height: 200px;
+}
